@@ -37,7 +37,7 @@ function duplicateCount(text){
 }
 ```
 
-## ~~Work expirience~~
+## ~~Work experience~~
 
 ## Education
 * 2019-2020 Saratov State Technical University by the name of Gagarin Y. A.
