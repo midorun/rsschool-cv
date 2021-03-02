@@ -1,0 +1,91 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+h2,
+h3 {
+	padding: 0;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 2.3em;
+	border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 1.5em;
+}
+
+li {
+	margin-bottom: 15px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1000px;
+}
+
+.row {
+	display: flex;
+
+
+}
+
+.personal {
+	.col {
+		&:first-child {
+			width: 40%;
+		}
+
+		&:last-child {
+			width: 60%;
+		}
+	}
+
+	&__img {
+		width: 250px;
+		height: 350px;
+
+		img {
+			width: 100%;
+			border-radius: 10px;
+		}
+	}
+
+	&__name {
+		font-size: 2em;
+	}
+
+	.contacts__list {
+		padding-inline-start: 30px;
+
+		span {
+			font-weight: 700;
+		}
+
+		li {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.education__list a {
+	text-decoration: none;
+}

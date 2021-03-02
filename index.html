@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>rsschool-cv</h1>
+		<section class="personal">
+			<h2 class="title">Personal information</h2>
+			<div class="row">
+				<div class="col">
+					<div class="personal__img">
+						<img src="img/photo.jpg" alt="photo">
+					</div>
+				</div>
+				<div class="col">
+					<h3 class="personal__name">Dmitriy Vorozheykin</h3>
+					<div class="contacts">
+						<h3 class="contacts__title title">Contacts</h3>
+						<ul class="contacts__list">
+							<li class="contacts__item">mail: <span>lmidorunl@gmail.com</span></li>
+							<li class="contacts__item">telegram: <span>@lmidorunl</span></li>
+							<li class="contacts__item">tel: <span>+79539772962</span></li>
+						</ul>
+					</div>
+					<div class="about">
+						<h3 class="about__title title">About</h3>
+						<div class="about__text">
+							18 y.o. beginner developer. Starting studying programing since 2019. For start I’m aiming on
+							becoming
+							junior front-end developer. After reaching this goal,I would just permanently improving my
+							skills, because
+							I’m passionate about studying and programing, and I always like to struggle with some
+							difficulties and
+							face challenges. So far I haven’t any commerce development expirience.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills">
+			<h2 class="title">Hard skills</h2>
+			<ul class="skills__list">
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>SCSS</li>
+				<li>JS(ES6)</li>
+				<li>Bootstrap</li>
+				<li>Webpack</li>
+				<li>npm</li>
+				<li>Git&GitHub</li>
+				<li>SQL, MS SQL Server</li>
+				<li>Basics of OOP</li>
+				<li>Figma</li>
+				<li>Photoshop</li>
+			</ul>
+		</section>
+
+		<section class="code">
+			<h2 class="title">Code example</h2>
+			<pre>
+function duplicateCount(text){
+  return text.toLowerCase()
+             .split('')
+             .filter((char, i, text) => text.indexOf(char) === i && text.lastIndexOf(char) !== i)
+             .length;
+}
+			</pre>
+		</section>
+
+		<section class="work">
+			<h2 class="title"><s>Work experience</s></h2>
+		</section>
+
+		<section class="education">
+			<h2 class="title">Education</h2>
+			<ul class="education__list">
+				<li>
+					2019-2023 Saratov State Technical University by the name of Gagarin Y. A.
+				</li>
+				<li><a href="https://www.udemy.com/share/101WvEAEEYc1pTQXkH/">HTML&CSS course by Petrychenko Ivan</a>
+				</li>
+				<li><a href="https://www.udemy.com/share/10208oAEEYc1pTQXkH/">JavaScript course by Petrychenko Ivan</a>
+				</li>
+		</section>
+		<section class="english">
+			<h2 class="title">English</h2>
+			<ul class="english__list">
+				<li>English language course (1,5 year length) at the SSTU</li>
+			</ul>
+		</section>
+	</div>
+</body>
+
+</html>
